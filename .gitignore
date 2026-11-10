@@ -33,3 +33,6 @@ build/
 .idea/
 .DS_Store
 Thumbs.db
+_release_assets/
+
+_retrain.py
