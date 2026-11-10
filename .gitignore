@@ -1,0 +1,35 @@
+# ---- 运行时产物 ----
+__pycache__/
+*.pyc
+*.pyo
+
+# ---- 训练数据 & 模型（用户自己训练，不入库）----
+training_images/*
+!training_images/README.md
+models/*
+!models/README.md
+output/*
+!output/README.md
+templates/**/*.png
+templates/**/*.jpg
+templates/**/*.pdf
+templates/*.png
+templates/*.jpg
+templates/*.pdf
+
+# ---- 临时文件 ----
+_wheels/
+*.log
+*_job.txt
+*.whl
+
+# ---- 打包产物 ----
+dist/
+build/
+*.spec
+
+# ---- IDE / 系统 ----
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

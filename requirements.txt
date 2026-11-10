@@ -1,0 +1,13 @@
+# 个人手写字生成器依赖
+# 界面：Tkinter（Python 3 标准库自带，无需安装）
+# 深度学习：torch（GPU 版需从 download.pytorch.org 装，CPU 版 pip 默认源即得）
+
+# 图像处理
+Pillow>=10.0
+numpy>=1.24
+
+# 深度学习（风格迁移）
+# 注意：GPU 版 torch 请用：
+#   pip install torch torchvision --index-url https://download.pytorch.org/whl/cu121
+torch>=2.2
+torchvision>=0.17
